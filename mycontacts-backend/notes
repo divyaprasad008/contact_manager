@@ -1,0 +1,23 @@
+npm run dev - will start dev environment with nodemon
+nodemon allows to restart the server when changes are made
+
+
+npm i express-async-handler
+we are going to use mongo so we need to write async before every route - contactController
+Also we need to handle error using try catch
+but to avoid defining try catch in each and every function, we make use of express-async-handler
+
+
+create an account in mongodb.com
+
+follow steps
+cluster will take some time 
+creating cluster will take some time
+
+After that you will have option to browse collection
+
+username: hddivya98 | hddivya98
+
+
+npm install bcrypt  - for password encryption in register model
+npm i jsonwebtoken  - for generating tokens after user login
